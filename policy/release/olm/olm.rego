@@ -407,7 +407,7 @@ deny contains result if {
 #   - redhat
 #   rule_data_fields:
 #   - operator_network_policy_rbac_exceptions
-#   effective_on: 2026-08-07T00:00:00Z
+#   effective_on: 2026-07-07T00:00:00Z
 deny contains result if {
 	some manifest in _csv_manifests
 	not _network_policy_rbac_excepted(manifest)
