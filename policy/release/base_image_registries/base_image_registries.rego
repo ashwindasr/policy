@@ -34,6 +34,7 @@ import data.lib.sbom
 #   collections:
 #   - minimal
 #   - redhat
+#   effective_on: 2026-06-18T00:00:00Z
 #   depends_on:
 #   - base_image_registries.base_image_info_found
 #   - base_image_registries.allowed_registries_provided
